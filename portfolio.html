@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #menu{
+            width: 100%;
+            height: 75px;
+            line-height: 75px;
+            padding: 0px 100px;
+            position: fixed;
+            background-color: yellow;
+        }
+        
+        #menu .logo p{
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+            color: rgb(12, 17, 168);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            cursor: pointer;    
+        }
+        #menu ul{
+            float: right;
+        }
+        #menu li{
+            display: inline-block;
+            list-style: none;
+        }
+        #menu li a{
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 0px 15px;
+            color: rgb(223, 25, 25);
+            text-decoration: none;
+        }
+        #menu li a:hover{
+            color: black;
+        }
+        #home{
+            padding:150px;
+            height: 450px;
+            width: 100%;
+            background-color: rgb(48, 25, 180);
+            color: white;      
+        }
+        #home h1{
+            color: rgb(187, 219, 232);
+            
+            letter-spacing: 1.5px;
+        }
+        #home h3{
+            margin-top: 4px;
+            padding: px;
+            color: palegreen;
+        }
+        #home p{
+            margin-top: 5px;
+        }
+        #about{
+            height: 500px;
+            width: 100%;
+            background-color: rgb(170, 164, 153);
+        }
+        #about .left{
+            height: 500px;
+            width: 45%;
+            background-color: blue;
+            float: left;
+            text-align: center;
+        }
+        #about .right{
+            background-color: blue;
+            height: 500px;
+            float: right;
+            width: 55%;
+        }
+        #about .left img{
+             margin-left: 170px;
+            margin-top: 100px; */
+            height: 350px;
+            width: 450px;
+            border-radius: 100%;
+            border: 3px thistle solid;
+        }
+        #about .right h1{
+            color: aliceblue;
+            text-align: center;
+            margin-right: 200px;
+            margin-top: 50px;
+        }
+        #box{
+            width: 650px;
+            height: 350px;
+            margin-top: 25px;
+            margin-left: 10px;
+            border: 2px black solid;
+            color: yellowgreen;
+            text-align: center;
+            text-wrap: balance;
+        }
+        #box p{
+            margin-top: 25px;
+        }
+         #skill{
+            height: 300px;
+            width: 100%;
+            background-color:rgb(36, 36, 94);
+            color: whitesmoke;
+        }
+        #skillheadline{  
+            height: 50px;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+            background-color: rgb(36, 36, 94);
+            font-size: 30px;
+            /* text-decoration: underline; */
+        }
+        #sname{
+            height: 180px;
+            width: 30%;
+            /* background-color: indianred; */
+            margin-left: 36%;
+            margin-top: 25px;
+            letter-spacing: 0.8px;
+            font-size: 16px;
+            
+        }
+        li{
+            margin: 10px;
+        }
+        #certificate{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(10, 106, 10);
+        }
+        #headline{
+            height: 100px;
+            width: 100%;
+            padding: 50px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            text-decoration: underline;
+            color: rgb(196, 196, 242);
+        }
+        #certificate img{
+            height: 300px;
+            width: 30%;
+            margin: 22px;
+            margin-top: 30px;
+            padding: 10px;
+        }
+        #contact{
+            height: 500px;
+            width: 100%;
+            background-color: rgb(245, 233, 182);
+            text-align: center;
+        }
+        #form{
+            height: 450px;
+            width: 400px;
+            margin-left: 37%;
+            background-color: rgb(245, 223, 182);
+            border: 1px rgb(10, 10, 10) solid;
+        }
+        #form h2{
+            margin-top: 25px;
+            text-align: center;
+        }
+        #form p{
+            margin-top: 25px;
+            float: left;  
+        }
+        button{
+            margin-top: 80px; 
+            height: 25px;
+            width: 250px;
+            border-radius: 8px;
+        }
+        a{
+            text-decoration: none;
+            border: 1x red solid;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+    <div id="menu">
+        <div class="logo">
+            <p>Portfolio</p>
+        </div>
+        <ul>
+            <li><a href="#home"}>Home</a></li>
+            <li><a href="#1">About</a></li>
+            <li><a href="#2">skill</a></li>
+            <li><a href="#3">Certificate</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+</div>
+    <div id="home">
+        <h1>Hello, and Welcome</h1>
+        <h3>I'm Rahul kumar,I'm delighted to have you here on my corner of the web. </h3>
+        <p>whether you stumbled upon my site by chance or came with a purpose, I'm excited to share my passion for front-end development with you.</p>
+        <p id="1">Take a look around, explore my projects, and don't hesitate to reach out. Your presence is truly appreciated</p>  
+    </div>
+    <div id="about">
+         <div class="left">
+            <img src="about.jpg" alt="">
+        </div>
+        <div class="right">
+            <h1>About Me</h1>
+            <div id="box">
+                <p>Hi, I'm Rahul Kumar, a front-end developer with a passion for creating awesome websites. I love the blend of design and coding that brings digital ideas to life.</p>
+        <p>My journey into web development started 2 years ago. I have a strong foundation in HTML, CSS, and JavaScript, and I enjoy staying up-to-date with the latest trends and technologies in the ever-evolving world of web development.</p>
+        <p>When I'm not coding, you can find me in youtube, always seeking inspiration for my next project. I believe in the power of collaboration and am excited about the possibilities that arise when creative minds come together.</p>
+        <p id="2">Let's connect and build something incredible!</p>
+            </div>
+        </div>
+    </div>
+    <div id="skill">
+        <div id="skillheadline">[&nbsp&nbspTechnical Skills&nbsp&nbsp]</div>
+    <div id="sname">
+        <ul type="circl">
+            <li>Programming language: C language and c++(basic)</li>
+            <li>Database Management: MySQL</li>
+            <li>Content Management system: Wordpress, Drupal</li>
+            <li>Advance in Web Development: HTML, CSS, Javascript</li>
+            <li>Other: MS EXCEL, PowerPoint, Basic photo editing, Canva</li>
+            <li>Worked on windows OS</li>
+            <li id="3">Strong communication in ENGLISH and HINDI language</li>
+        </ul>
+    </div>    
+
+    </div>
+    <div id="certificate">
+        <div id="headline">Certification</div>
+        <img src="js.jpg" alt="searching certificate">
+        <img src="c.net.jpg" alt="searching certificate">
+        <img src="java.jpg" alt="searching certificate">
+    </div>
+    <div id="contact">
+        <div id="form">
+          <h2>  contact me</h2>
+          <p>whatsapp no.:-8409261486 </p>
+          <button><a href="https://www.linkedin.com/in/rahul-kumar-bb23a525b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Go to LinkedIn profile</a></button>
+        </div>
+        ThankYou!
+    </div>
+</div>
+</body>
+</html>
